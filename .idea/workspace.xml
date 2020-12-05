@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb44dff9-3b69-4c44-9656-0d044b6fe0f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/core/UserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/services/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/services/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/homestay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/AgroFeedBackApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/HomeStayFeedBackApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/base/UserConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/core/UserConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/base/UserType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/controller/CustomerResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/resources/CustomerResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/controller/FeedbackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/resources/FeedbackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/resources/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/controller/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/resources/ViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/repository/FeedbackRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/repository/FeedbackRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/services/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/services/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/services/user/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/services/user/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dashboard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/feedback-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/feedback-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/feedback.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/feedback.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/individual-feedback.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/individual-feedback.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/summary.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/summary.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/customercrud/demo/AgroFeedBackApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/customercrud/demo/HomeStayFeedBackApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Pawan\.m2\wrapper\dists\apache-maven-3.6.0-bin\2dakv70gp803gtm5ve1ufmvttn\apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fdcpeV3YC9IjNTPOuDKq0mMnOS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554218035514" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.customercrud.customerfeedback.core" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MyFiles\Projects\homestayfeedback\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DemoApplication (1)">
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="homestayfeedback" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.customercrud.customerfeedback.HomeStayFeedBackApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="homestayfeedback" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.customercrud.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeStayFeedBackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="homestayfeedback" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.customercrud.customerfeedback.HomeStayFeedBackApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.DemoApplication (1)" />
+      <item itemvalue="Spring Boot.HomeStayFeedBackApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb44dff9-3b69-4c44-9656-0d044b6fe0f6" name="Default Changelist" comment="" />
+      <created>1554210775359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554210775359</updated>
+      <workItem from="1554210785316" duration="7137000" />
+      <workItem from="1561775278758" duration="356000" />
+      <workItem from="1561899272314" duration="327000" />
+      <workItem from="1562200361613" duration="1085000" />
+      <workItem from="1596551598610" duration="1275000" />
+      <workItem from="1596553189124" duration="776000" />
+      <workItem from="1596594679168" duration="58000" />
+      <workItem from="1596625372065" duration="53000" />
+      <workItem from="1600915428029" duration="67000" />
+      <workItem from="1602221350382" duration="184000" />
+      <workItem from="1605672527478" duration="1221000" />
+      <workItem from="1605674454782" duration="742000" />
+      <workItem from="1605675578855" duration="182000" />
+      <workItem from="1605675767913" duration="2000" />
+      <workItem from="1605675789992" duration="621000" />
+      <workItem from="1605681167072" duration="19980000" />
+      <workItem from="1605712687637" duration="4806000" />
+      <workItem from="1605751212617" duration="22120000" />
+      <workItem from="1605845362992" duration="14710000" />
+      <workItem from="1605875505122" duration="1594000" />
+      <workItem from="1605878907979" duration="1032000" />
+      <workItem from="1605929543881" duration="20362000" />
+      <workItem from="1606011585271" duration="615000" />
+      <workItem from="1606161316239" duration="101000" />
+      <workItem from="1606161459647" duration="4539000" />
+      <workItem from="1606234347717" duration="1235000" />
+      <workItem from="1606276898117" duration="2176000" />
+      <workItem from="1606293289560" duration="16781000" />
+      <workItem from="1607182228903" duration="71000" />
+    </task>
+    <task id="LOCAL-00001" summary="configuration">
+      <created>1605782950284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605782950284</updated>
+    </task>
+    <task id="LOCAL-00002" summary="configuration">
+      <created>1605870931814</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605870931814</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="configuration" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606206138692">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1606206138692" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1606323042578">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1606323042578" />
+    <state x="463" y="81" key="FileChooserDialogImpl" timestamp="1606161434256">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="81" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606161434256" />
+    <state width="1323" height="130" key="GridCell.Tab.0.bottom" timestamp="1606352139526">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606352139526" />
+    <state width="1323" height="130" key="GridCell.Tab.0.center" timestamp="1606352139526">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606352139526" />
+    <state width="1323" height="130" key="GridCell.Tab.0.left" timestamp="1606352139526">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606352139526" />
+    <state width="1323" height="130" key="GridCell.Tab.0.right" timestamp="1606352139526">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606352139526" />
+    <state width="1323" height="130" key="GridCell.Tab.1.bottom" timestamp="1606352139527">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606352139527" />
+    <state width="1323" height="130" key="GridCell.Tab.1.center" timestamp="1606352139526">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606352139526" />
+    <state width="1323" height="130" key="GridCell.Tab.1.left" timestamp="1606352139526">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606352139526" />
+    <state width="1323" height="130" key="GridCell.Tab.1.right" timestamp="1606352139526">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606352139526" />
+    <state width="1323" height="130" key="GridCell.Tab.2.bottom" timestamp="1606352139527">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606352139527" />
+    <state width="1323" height="130" key="GridCell.Tab.2.center" timestamp="1606352139527">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1606352139527" />
+    <state width="1323" height="130" key="GridCell.Tab.2.left" timestamp="1606352139527">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1606352139527" />
+    <state width="1323" height="130" key="GridCell.Tab.2.right" timestamp="1606352139527">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1606352139527" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1606206201626">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1606206201626" />
+    <state x="0" y="0" width="672" height="678" key="search.everywhere.popup" timestamp="1606356711719">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606356711719" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/resources/UserController.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/resources/ViewController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/customercrud/customerfeedback/resources/UserController.java</url>
+          <line>23</line>
+          <properties class="com.customercrud.customerfeedback.resources.UserController" method="registerUser">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
