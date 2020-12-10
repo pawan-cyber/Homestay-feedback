@@ -115,7 +115,7 @@
         </div>
     </div>
 </div>
-
+<jsp:include page="weather-data.jsp"/>
 <%--register modal--%>
 <!-- Modal -->
 <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel"
@@ -183,6 +183,7 @@
 </body>
 <script>
     $(document).ready(function () {
+        weatherData();
         const userType = sessionStorage.getItem('userType');
         console.log(userType);
         if (userType == 'ADMIN') {
@@ -219,6 +220,23 @@
                 console.log(data);
             },
 
+        });
+    }
+
+    function weatherData(){
+        const settings = {
+            "async": true,
+            "crossDomain": true,
+            "url": "https://community-open-weather-map.p.rapidapi.com/weather?q=London%2Cuk&lat=0&lon=0&callback=test&id=2172797&lang=null&units=%22metric%22%20or%20%22imperial%22&mode=xml%2C%20html",
+            "method": "GET",
+            "headers": {
+                "x-rapidapi-key": "SIGN-UP-FOR-KEY",
+                "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com"
+            }
+        };
+
+        $.ajax(settings).done(function (response) {
+            console.log(response);
         });
     }
 </script>

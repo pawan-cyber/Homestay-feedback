@@ -22,6 +22,7 @@
         <datasource-mapping>
           <factory-entry name="customercrud" />
           <factory-entry name="entityManagerFactory" />
+          <factory-entry name="homestayfeedback" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>

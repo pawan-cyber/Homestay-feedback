@@ -12,13 +12,20 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Arrays;
 import java.util.stream.Collectors;
-
+/**
+ * Rest api
+ * Main api '/user'
+ * only user related api*/
 @RestController
 @RequestMapping("/user")
 public class UserController {
     @Autowired
     private UserService userService;
 
+    /**
+     * register api , sub api -'/register'
+     * Request type User
+     * @param user  pass user detail for register*/
     // register user with unique username validation
     @PostMapping("/register")
     public ResponseEntity<?> registerUser(@RequestBody User user) {
@@ -32,6 +39,9 @@ public class UserController {
         return ResponseEntity.ok().body("successfully registered !!");
     }
 
+    /**
+     * @param request - http request
+     * returns all the cookies from http*/
     // source: https://dzone.com/articles/how-to-use-cookies-in-spring-boot
     @GetMapping("/all-cookies")
     public ResponseEntity<?> readCookie (HttpServletRequest request) {

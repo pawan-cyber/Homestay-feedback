@@ -30,6 +30,10 @@ public class ViewController {
         return "index";
     }
 
+    /**
+     * summary page returning api
+     * @param username -name of user
+     * @param password -password of user*/
     @PostMapping("/login")
     public String login(@RequestParam String username , @RequestParam String password , ModelMap modelMap, HttpServletResponse response, HttpServletRequest request) {
         // todo find user type and return view according to it
@@ -57,6 +61,8 @@ public class ViewController {
         return "feedback";
     }
 
+    /**
+     * view all feedback*/
     @GetMapping("/feedback-list")
     public String loadFeedbackList(ModelMap modelMap){
         List<User> users = userService.findUserByUserType(UserType.USER); // only client user can give feedback
@@ -64,12 +70,17 @@ public class ViewController {
         return "feedback-list";
     }
 
+    /**
+     * @param id- id of user*/
     @GetMapping("/feed-back/{id}")
     public String loadFeedbackIndividual(@PathVariable String id, ModelMap modelMap){
         User user = userService.findById(Integer.valueOf(id));
         modelMap.put("user" , user);
         return "individual-feedback";
     }
+
+    /**
+     * summary page returning api*/
     @GetMapping("/summary")
     public String loadFeedbackList(){
         return "summary";
@@ -87,7 +98,8 @@ public class ViewController {
         return "index";
     }
 
-
+    /**
+     * index - home page*/
     @GetMapping("/home")
     public String home(HttpServletRequest httpServletRequest , ModelMap modelMap) {
         Map<String, Cookie> cookieMap = new HashMap<>();
@@ -100,5 +112,12 @@ public class ViewController {
             return "index";
         }
         return "dashboard";
+    }
+
+    /**
+     * weather data page*/
+    @GetMapping("/weather")
+    public String loadMarketPriceData(){
+        return "weather-data";
     }
 }
