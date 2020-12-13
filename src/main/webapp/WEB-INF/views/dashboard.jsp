@@ -48,10 +48,11 @@
         </div>
         <div class="col-md-8 content1-right">
             <p>
-                Belkot is a beautiful village that is surrounded by green hills and terrace farms. You are welcome to
-                participate in some of the traditional farming practices and assist your hosts in their fields. You
-                might like to try your hand planting rice with the muddy fields, or just explore the diverse culture and
-                lifestyle within this small community with your Nepalese family.</p>
+                Home-stay is innovative idea of development in Nepal which can offer an excellent opportunity to share,
+                see and feel the varied countryside lifestyle, local culture, and tradition. It indorses the rural
+                economy through the promotion of local tourism. Homestay is a part of Nepalese economy, homestay is
+                regarded as the main source of income in the rural area. Several homestay owner
+                have informed certain increment in the savings which helps maintain the economy of the place. .</p>
         </div>
     </div>
 </div>
@@ -65,9 +66,10 @@
         </div>
         <div class="col-md-8 content1-right">
             <p>
-                Seven homestays comprise the Nuwakot Community Homestay, in the village of Belkot. This is quite a poor
-                village, even by Nepali standards, so the lifestyle is simple here. The accommodation is also simple,
-                but adequate to meet your needs. Clean linen will be provided for the beds. </p>
+                pawan homestays comprise the imadol Community Homestay. This is quite a poor village, even by Nepali
+                standards,illage, even by Nepali standards, so the lifestyle is simple here. The accommodation is also
+                simple,but adequate to meet your needs. Clean linen will be provided for the beds. </p>
+
             <p>
                 As at all Community Homestays in Nepal that are part of this project, you’ll have a private room that’s
                 in close proximity to your host family. So, you can enjoy private time when you feel like it, but also
@@ -84,16 +86,14 @@
 
             <div class="row mt-5">
                 <div class="col-md-12">
-                    <strong>About Belkot, Nuwakot</strong>
+                    <strong>About Imadol</strong>
 
                     <p class="justify-center">
-                        ‘Nuwakot’ actually means ‘nine forts’, and Belkot is one of those nine that once stood around
-                        the
-                        Nuwakot area. Nuwakot district is a culturally and historically rich area, as well as being
-                        naturally attractive. There’s lots to see and do here.
+                        Imadol is a culturally and historically rich area, as well as being naturally attractive.
+                        There’s lots to see naturally attractive. There’s lots to see and do here.
                     </p>
                     <p class="justify-center">
-                        In Belkot itself, a highlight is watching your hosts and the other villagers at work on their
+                        In imadol itself, a highlight is watching your hosts and the other villagers at work on their
                         farms.
                         The village is surrounded by terraced farmland, which is dazzlingly green after the rains. A
                         walk
@@ -101,15 +101,7 @@
                         town
                         during the right season (early monsoon), you can even help plant rice.
                     </p>
-                    <p>
-                        Belkot is a poor village that suffered a lot of damage from natural disasters. If you’re
-                        interested
-                        in volunteering at the local high school, your generous donation of time would be greatly
-                        appreciated. Volunteering allows you to stay in the village a bit longer and become more
-                        intimately
-                        acquainted with Nepali village life. Even if you can’t volunteer, you’re welcome to visit the
-                        school.
-                    </p>
+
                 </div>
             </div>
         </div>
